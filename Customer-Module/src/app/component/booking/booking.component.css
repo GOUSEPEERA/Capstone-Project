@@ -1,0 +1,16 @@
+.booking-card {
+    margin-bottom: 50%;
+    border: none;
+    width: 500px;
+    padding: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background: #E69A8DFF; 
+    background: linear-gradient(90deg, #E69A8DFF 0%, hsla(260,46%,30%,1) 100% ); 
+}
+/* 
+.formInput{
+    background-color: aquamarine;
+} */

@@ -1,0 +1,142 @@
+{
+  "adminDetails": [
+    {
+      "id": 1,
+      "name": "Gouse",
+      "email": "gouse@gmail.com",
+      "phone": "9390771217",
+      "password": "Gouse@2001",
+      "gender": "Male"
+    },
+    {
+      "id": 2,
+      "name": "Nabi",
+      "email": "Nabi@gmail.com",
+      "phone": "6301990860",
+      "password": "Nabi@2001",
+      "gender": "Male"
+    },
+    {
+      "id": 3,
+      "name": "Alla",
+      "email": "Alla@gmail.com",
+      "phone": "9441893903",
+      "password": "Alla@2001",
+      "gender": "Male"
+    },
+    {
+      "id": 4,
+      "name": "Peera",
+      "email": "Peera@gmail.com",
+      "phone": "6301990860",
+      "password": "Peera@2001",
+      "gender": "Male"
+    },
+    {
+      "id": 9,
+      "name": "Gouse",
+      "email": "gouse@gmail.com",
+      "phone": "9390771217",
+      "password": "Gouse@2001",
+      "gender": "Male"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "101",
+      "floor": "First-Floor",
+      "roomPrice": 150,
+      "roomType": "Delux",
+      "roomStatus": "open"
+    },
+    {
+      "id": "102",
+      "floor": "First-Floor",
+      "roomPrice": 150,
+      "roomType": "Delux",
+      "roomStatus": "open"
+    },
+    {
+      "id": "201",
+      "floor": "Second-Floor",
+      "roomPrice": 250,
+      "roomType": "Executive suit",
+      "roomStatus": "open"
+    },
+    {
+      "id": "202",
+      "floor": "Second-Floor",
+      "roomPrice": 250,
+      "roomType": "Executive suit",
+      "roomStatus": "open"
+    }
+  ],
+  "signupUsers": [
+    {
+      "name": "Gouse Peera",
+      "mobile": 7995481233,
+      "gender": "Male",
+      "email": "Gouse@gmail.com",
+      "password": "Gouse@2001",
+      "id": 1
+    },
+    {
+      "name": "Revature",
+      "mobile": 1234567890,
+      "gender": "Male",
+      "email": "revature@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "imran",
+      "mobile": 7994561323,
+      "gender": "Male",
+      "email": "imran@gmail.com",
+      "password": "123456",
+      "id": 3
+    }
+  ],
+  "booking": [
+    {
+      "name": "Nabi",
+      "email": "nabi@gmail.com",
+      "mobile": 7894561230,
+      "roomtype": "",
+      "address": "Kurnool",
+      "id": 1
+    },
+    {
+      "name": "Gouse",
+      "email": "gouse@gmail.com",
+      "mobile": 12345678890,
+      "roomtype": "",
+      "address": "Adoni",
+      "id": 2
+    },
+    {
+      "name": "Alla",
+      "email": "alla@gmail.com",
+      "mobile": 7531598521,
+      "roomtype": "",
+      "address": "Asp",
+      "id": 3
+    },
+    {
+      "name": "imran",
+      "email": "imran@gmail.com",
+      "mobile": 7894561230,
+      "roomtype": "",
+      "address": "kurnool",
+      "id": 4
+    },
+    {
+      "name": "alla",
+      "email": "alla@gmail.com",
+      "mobile": 7894561237,
+      "roomtype": "",
+      "address": "Hyd",
+      "id": 5
+    }
+  ]
+}

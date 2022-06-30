@@ -1,0 +1,42 @@
+<!-- <p>booking works!</p> -->
+<div class="formInput">
+    <form class="booking-card" [formGroup]="bookingForm" (ngSubmit)="booking()">
+        <div class="para">
+            <p> We'll never share your details with anyone else</p>
+        </div>
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" formControlName="name" class="form-control" id="firstname">
+        </div>
+
+        <div class="mb-3">
+            <label for="mobile" class="form-label">Mobile</label>
+            <input type="number" formControlName="mobile" class="form-control" id="firstname">
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" formControlName="email" class="form-control" id="email">
+        </div>
+
+        <div class="mb-3">
+            <label for="roomType" class="form-label">RoomType</label>
+            <input type="text" formControlName="lastname" class="form-control" id="lastname">
+        </div>
+
+        <div class="mb-3">
+            <label for="address" class="form-label">Address</label>
+            <input type="address" formControlName="address" class="form-control" id="address">
+        </div>
+
+        <div class="mb-3 form-check">
+            <label class="form-check-label" for="checkbox">Agree to terms and conditions</label>
+            <input type="checkbox" class="form-check-input" id="checkbox">
+        </div>
+
+        <button type="submit" class="btn btn-primary mb-3">Book Now</button>
+
+
+    </form>
+</div>
